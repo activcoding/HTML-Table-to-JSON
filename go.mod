@@ -1,4 +1,4 @@
-module github.com/activcoding/HTML-Table-to-JSON/convertHtmlTableToData
+module github.com/activcoding/HTML-Table-to-JSON
 
 go 1.22.1
 
