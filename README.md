@@ -6,7 +6,7 @@ Example Usage:
 func main() {
 	data, err := converthtmltabletodata.ConvertURLToJSON("src/index.html")
 	if err != nil { return }
-	jsonFile, err := os.Create("Vertretungen/Schueler/heute/jsonTest.json")
+	jsonFile, err := os.Create("jsonData.json")
 	if err != nil { return }
 	defer jsonFile.Close()
 

@@ -28,10 +28,6 @@ func Convert(reader io.ReadCloser) ([]Table, error) {
 	}
 
 	document.Find("table").Each(func(tableIndex int, tableSelection *goquery.Selection) {
-		if tableIndex == 0 {
-			return
-		}
-
 		table := Table{}
 		var headers []string
 
